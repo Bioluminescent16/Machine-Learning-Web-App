@@ -1,4 +1,4 @@
-# Machine-Learning-Web-App
+# Flower Predicting Web App (Machine Learning Web App)
 This project is a machine learning web application that predicts the species of an iris flower based on its sepal and petal dimensions. The application uses TensorFlow for model development, Streamlit for the front-end interface, Flask for serving the model, Docker for containerization, and Kubernetes for orchestration.
 
 # Overview
