@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ml-web-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: ml-web-app
+  template:
+    metadata:
+      labels:
+        app: ml-web-app
+    spec:
+      containers:
+      - name: ml-web-app
+        image: ml-web-app:latest
+        ports:
+        - containerPort: 5000
